@@ -1,0 +1,6 @@
+framework module Pods_APKYCPod_Example {
+  umbrella header "Pods-APKYCPod_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

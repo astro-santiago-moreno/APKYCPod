@@ -1,0 +1,6 @@
+framework module APKYCPod {
+  umbrella header "APKYCPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

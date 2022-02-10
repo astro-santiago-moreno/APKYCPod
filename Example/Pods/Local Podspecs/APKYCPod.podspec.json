@@ -1,0 +1,22 @@
+{
+  "name": "APKYCPod",
+  "version": "0.1.0",
+  "summary": "A short description of APKYCPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/msantim@hotmail.com/APKYCPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "msantim@hotmail.com": "santiago.moreno@astropay.com"
+  },
+  "source": {
+    "git": "https://github.com/msantim@hotmail.com/APKYCPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "APKYCPod/Classes/**/*"
+}
