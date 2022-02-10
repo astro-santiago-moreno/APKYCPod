@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'Source/**/*.swift'
   s.swift_version = '5.0'
   s.platforms = {
-      "ios" = "14.0"
+      "ios" => "14.0"
   }
   
   # s.resource_bundles = {
