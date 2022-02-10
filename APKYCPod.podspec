@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'APKYCPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of APKYCPod.'
+  s.summary          = 'APKYCPod is a test for a creation on a pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "APKYCPod is a test for a creation on a pod for the KYC module"
 
-  s.homepage         = 'https://github.com/msantim@hotmail.com/APKYCPod'
+  s.homepage         = 'https://github.com/astro-santiago-moreno/APKYCPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '@espaciotiago' => 'santiago.moreno@astropay.com' }
-  s.source           = { :git => 'https://github.com/msantim@hotmail.com/APKYCPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/astro-santiago-moreno/APKYCPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '14.0'
@@ -43,5 +41,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Onfido', '~> 23.1.1'
+  s.dependency 'Onfido'
 end
