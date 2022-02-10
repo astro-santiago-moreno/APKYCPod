@@ -24,13 +24,17 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/msantim@hotmail.com/APKYCPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'msantim@hotmail.com' => 'santiago.moreno@astropay.com' }
+  s.author           = { '@espaciotiago' => 'santiago.moreno@astropay.com' }
   s.source           = { :git => 'https://github.com/msantim@hotmail.com/APKYCPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'APKYCPod/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios" = "14.0"
+  }
   
   # s.resource_bundles = {
   #   'APKYCPod' => ['APKYCPod/Assets/*.png']
@@ -39,4 +43,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Onfido', '~> 23.1.1'
 end
