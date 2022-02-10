@@ -1,13 +1,8 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '14.0'
 
 target 'APKYCPod_Example' do
+  pod 'Onfido'
   pod 'APKYCPod', :path => '../'
-
-  target 'APKYCPod_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
 end

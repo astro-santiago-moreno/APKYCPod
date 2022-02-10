@@ -1,27 +1,24 @@
 PODS:
-  - APKYCPod (0.1.0)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
+  - APKYCPod (0.1.0):
+    - Onfido
+  - Onfido (24.2.0)
 
 DEPENDENCIES:
   - APKYCPod (from `../`)
-  - FBSnapshotTestCase (~> 2.1.4)
+  - Onfido
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
+    - Onfido
 
 EXTERNAL SOURCES:
   APKYCPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APKYCPod: f57f6dce317e812fab5dada4e45959c48587f6ab
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  APKYCPod: caa7af1f7499e00b084c03d344e1ac88084ad9e2
+  Onfido: 5e881be263c88d785784b34c7870f3e3f6f7cf14
 
-PODFILE CHECKSUM: 110f658660f5fcc555f84e88c787eab990850519
+PODFILE CHECKSUM: 8e009c73d8ff75ade2459de278628ddbff2a698f
 
 COCOAPODS: 1.11.2

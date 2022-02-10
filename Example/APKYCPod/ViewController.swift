@@ -9,6 +9,7 @@
 import UIKit
 import SwiftUI
 import APKYCPod
+import Onfido
 
 class ViewController: UIViewController {
     
