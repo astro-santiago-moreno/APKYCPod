@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'APKYCPod'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'APKYCPod is a test for a creation on a pod'
+  s.static_framework = true
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -42,4 +43,6 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Onfido'
+  s.dependency 'JumioMobileSDK/NetverifyFace+iProov'
+  s.dependency 'IncdOnboarding', '4.0.1-d'
 end

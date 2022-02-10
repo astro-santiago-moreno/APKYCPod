@@ -12,7 +12,7 @@ public struct APKycView: View {
     public init() {}
     
     public var body: some View {
-        Text("WELCOME TO THE KYC")
+        Text("WELCOME TO THE KYC WITH ALL PODS")
     }
 }
 

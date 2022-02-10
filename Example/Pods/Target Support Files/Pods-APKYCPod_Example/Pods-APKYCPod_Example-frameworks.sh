@@ -176,12 +176,24 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/APKYCPod/APKYCPod.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/JumioCore.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/Netverify.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/JumioIProov.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IncdOnboarding/IncdOnboarding.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Onfido/Onfido.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iProov/iProov.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/APKYCPod/APKYCPod.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/JumioCore.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/Netverify.framework"
+  install_framework "${PODS_ROOT}/JumioMobileSDK/JumioMobileSDK-3.9.5/JumioIProov.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/IncdOnboarding/IncdOnboarding.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/Onfido/Onfido.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iProov/iProov.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
