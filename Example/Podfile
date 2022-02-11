@@ -8,7 +8,6 @@ platform :ios, '14.0'
 target 'APKYCPod_Example' do
   pod 'Onfido'
   pod 'JumioMobileSDK/NetverifyFace+iProov'
-  pod 'IncdOnboarding', '4.0.1-d'
   pod 'APKYCPod', :path => '../'
 end
 

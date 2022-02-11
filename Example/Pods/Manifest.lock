@@ -1,9 +1,7 @@
 PODS:
   - APKYCPod (1.0.0):
-    - IncdOnboarding (= 4.0.1-d)
     - "JumioMobileSDK/NetverifyFace+iProov"
     - Onfido
-  - IncdOnboarding (4.0.1-d)
   - iProov (9.0.1):
     - Socket.IO-Client-Swift (~> 16.0)
   - "JumioMobileSDK/NetverifyFace+iProov (3.9.5)":
@@ -15,13 +13,10 @@ PODS:
 
 DEPENDENCIES:
   - APKYCPod (from `../`)
-  - IncdOnboarding (= 4.0.1-d)
   - "JumioMobileSDK/NetverifyFace+iProov"
   - Onfido
 
 SPEC REPOS:
-  "git@github.com:Incode-Technologies-Example-Repos/IncdDistributionPodspecs.git":
-    - IncdOnboarding
   https://github.com/CocoaPods/Specs.git:
     - iProov
     - JumioMobileSDK
@@ -35,14 +30,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APKYCPod: 43cc472888bd4ed8086f4bece713ed493cd02eeb
-  IncdOnboarding: 339bb2e33b9c0bb6e71d61e0751596dffe0c2b99
+  APKYCPod: 49055b9abfb64cb164f6f8866b79a19bba2f5457
   iProov: 229c72183e440790a58a0298ae24f1515eea1432
   JumioMobileSDK: fc748b0b6aaa3633b9db6baf4bc03b431b73738e
   Onfido: 5e881be263c88d785784b34c7870f3e3f6f7cf14
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
 
-PODFILE CHECKSUM: 5c08ab055ee635f028dd8aebbbc85d6f07fb6684
+PODFILE CHECKSUM: fd1d810e1d43c675bb1c7789026f48383878b7a1
 
 COCOAPODS: 1.11.2

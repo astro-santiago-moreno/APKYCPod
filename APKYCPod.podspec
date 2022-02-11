@@ -44,5 +44,4 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Onfido'
   s.dependency 'JumioMobileSDK/NetverifyFace+iProov'
-  s.dependency 'IncdOnboarding', '4.0.1-d'
 end
